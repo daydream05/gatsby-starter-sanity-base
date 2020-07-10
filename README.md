@@ -41,6 +41,7 @@ This project uses [lerna](https://github.com/lerna/lerna) to manage both Gatsby 
 
 ### Adding a specific package to each project folder
 Instead of navigating through the project folder and doing `npm install package` you have to use this command to install a new package.
+It helps us avoid `package-lock.json` errors on deployment.
 
 #### Add package to Gatsby site
 ```
